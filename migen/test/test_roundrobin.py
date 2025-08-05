@@ -1,10 +1,6 @@
 import unittest
 from itertools import count
 
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
 from migen import *
 from migen.genlib.roundrobin import RoundRobin, SP_TIMESLICE
 from migen.test.support import SimCase
